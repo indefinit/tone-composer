@@ -1,0 +1,10 @@
+{
+  "name": "tone-composer",
+  "private": true,
+  "dependencies": {
+    "modernizr": "~2.6.2",
+    "jquery": "~1.11.0",
+    "ace-builds": "~1.1.7"
+  },
+  "devDependencies": {}
+}
