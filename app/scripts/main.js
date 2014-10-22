@@ -15,8 +15,8 @@
 Tone composer, a live coding environment for Tone.js
 http://studioindefinit.com , 2014
 */
-(function($, a){
-	var editor = a.edit('editor');
+(function($){
+	var editor = ace.edit('editor');
 	var session = editor.getSession();
 	var inactivityTime;
 	editor.setTheme('ace/theme/monokai');
@@ -38,4 +38,4 @@ http://studioindefinit.com , 2014
 		resetTimer();
 	});
 
-})(jQuery, ace);
+})(jQuery);

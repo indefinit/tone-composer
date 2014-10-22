@@ -6,9 +6,6 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-        <!-- build:css styles/vendor.css -->
-        <!-- bower:css -->
         <!-- endbower -->
         <!-- endbuild -->
 
@@ -56,12 +53,18 @@
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
         <script src="bower_components/jquery/dist/jquery.js"></script>
-        <script src="bower_components/ace-builds/src-noconflict/ace.js"></script>
         <script src="bower_components/Tone/build/Tone.min.js"></script>
         <script src="bower_components/Tone/build/Tone.Preset.js"></script>
         <!-- endbower -->
         <!-- endbuild -->
 
+        <!-- build:js scripts/vendor/ace.js -->
+        <script src="bower_components/ace-builds/src-noconflict/ace.js"></script>
+        <script src="bower_components/ace-builds/src-noconflict/worker-javascript.js"></script>
+        <script src="bower_components/ace-builds/src-noconflict/theme-monokai.js"></script>
+        <script src="bower_components/ace-builds/src-noconflict/mode-javascript.js"></script>
+
+        <!-- endbuild -->
         <!-- build:js scripts/main.js -->
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
